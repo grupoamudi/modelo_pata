@@ -1,10 +1,3 @@
-%%
-%% This is file `./samples/minutes.tex',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% meetingmins.dtx  (with options: `minutes')
 %% ----------------------------------------------------------------------
 %% 
 %% meetingmins - A LaTeX class for formatting minutes of meetings
@@ -24,6 +17,9 @@
 %% ----------------------------------------------------------------------
 %% 
 \documentclass[11pt]{meetingmins}
+
+
+%% COISAS CHIQUES PARA CASO UM DIA O AMUDI SEJA DE FATO DIVIDIDO EM AREAS UHULLLLL
 
 %% Optionally, the following text could be set in the file
 %% department.min in this folder, then add the option 'department'
@@ -46,73 +42,74 @@
   B.~Gone
 }
 
-\setdate{October 5, 2011}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		     DATA DE HOJE			       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setdate{\today}
 
 \setpresent{
-  \chair{B.~Smart},
-  B.~Brave,
-  D.~Claire
+  \chair{Kenzo Mestre de Obras},
+  Lu,
 }
 
-\absent{B.~Gone \textit{(sabbatical)}}
+\absent{Luca \textit{(sabbatical)}}
 
 \alsopresent{B.~There}
 
 \begin{document}
 \maketitle
 
-\section{Announcements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%							       %	
+%			PONTEIROS			       %
+%                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ponteiros}
 \begin{hiddenitems}
-\item
-The dean is coming today.
+\item 
+Ponteiro 1
 
 \item
-The dean has canceled.
+Ponteiro 2
 
 \end{hiddenitems}
 
-\section{Committee Reports}
+\section{SAPO}
 
-\subsection{College-wide Committees}
-\subsubsection{Library}
-The library still has books that no one has read.
+\subsection{Reunioes}
+\subsubsection{Obra do Amudi}
 
-\subsubsection{Curriculum {\rm (D.~Claire)}}
-\begin{hiddensubitems}
-\item
-There is widespread interest in reforming the curriculum.
+Vamos expor uma obra do amudi na SAPO! 
 
-\item
-Unfortunately, no one seems interested in participating on the
-curriculum reform committee.
-\end{hiddensubitems}
-
-\subsection{Department Committees}
-\subsubsection{Personnel}
-No one can have a raise this year.
-
-\subsubsection{Assistant Professor Search}
-We are looking for someone who will do a lot for very little money.
-
-\section{Old Business}
+\subsubsection{Oficina de Games}
 \begin{items}
+\item 
+Vamos montar uma oficina de games!
 \item
+Precisamos terminar o material
+
+\end{items}
+
+\section{Espaço no CITI}
+\begin{items}
+\item Precisamos arrumar nossa bancada
 \priormins
 \end{items}
 
-\section{New Business}
+\section{Projeto novo}
 \begin{items}
 \item
-We will teach classes next semester.
+Encontrar formas de financiar o projeto
 
 \item
-We will do research next semester.
+Marcar reuniões semanais
 \end{items}
 
 \vspace{1em}
-\nextmeeting{Wednesday, October 19, at 3:00}
+\nextmeeting{Reunioes do semestre são de sexta no almoço no Dentinho}
 
 \end{document}
+
 %% 
 %% Copyright (C) 2011-2013 by Brian D. Beitzel <brian@beitzel.com>
 %% 
