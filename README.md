@@ -10,3 +10,6 @@ Para compilar, depois de instalar o latex (https://www.latex-project.org/), digi
 $ pdflatex modelo.tex
 
 Se o código estiver correto, isto deve gerar um .pdf. 
+
+Outra alternativa é utilizar online diretamente no Overleaf, copiando o modelo deste link:
+https://www.overleaf.com/1442783367cxyxmfpyktkr

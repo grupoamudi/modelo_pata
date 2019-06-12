@@ -17,7 +17,9 @@
 %% ----------------------------------------------------------------------
 %% 
 \documentclass[11pt]{meetingmins}
-
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage[brazilian]{babel}
 
 %% COISAS CHIQUES PARA CASO UM DIA O AMUDI SEJA DE FATO DIVIDIDO EM AREAS UHULLLLL
 
@@ -33,50 +35,47 @@
 %%  B.~Gone
 %%}
 
-\setcommittee{Department of Instruction}
+\setcommittee{Grupo aMuDi}
 
-\setmembers{
-  \chair{B.~Smart},
-  B.~Brave,
-  D.~Claire,
-  B.~Gone
-}
+\setmembers{João, Dose, Lu, Loide, Kenzo, Agnam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		     DATA DE HOJE			       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setdate{\today}
 
-\setpresent{
-  \chair{Kenzo Mestre de Obras},
-  Lu,
-}
+\setpresent{Loide, João, Agnam, Dose}
 
-\absent{Luca \textit{(sabbatical)}}
+\absent{Luca \textit{(sabático)}, Kenzo \textit{(saudades)}}
 
-\alsopresent{B.~There}
+%Usar para membros externos do amudi:
+%\alsopresent{}
 
 \begin{document}
 \maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%							       %	
-%			PONTEIROS			       %
-%                                                              %
+%						                                        %	
+%		            	PONTEIROS			                    %
+%                                                               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Ponteiros}
-\begin{hiddenitems}
-\item 
-Ponteiro 1
+\renewcommand{\contentsname}{\Large{Ponteiros:}}
+\setcounter{tocdepth}{1}
+\tableofcontents
 
-\item
-Ponteiro 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%						                                        %	
+%		            	PATA per se			                    %
+%                                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{30 pt}
+\raggedright
+\textbf{\Large{Pata:}}
 
-\end{hiddenitems}
-
+%preencha a partir daqui:
 \section{SAPO}
 
-\subsection{Reunioes}
+\subsection{Reuniões}
 \subsubsection{Obra do Amudi}
 
 Vamos expor uma obra do amudi na SAPO! 
@@ -93,7 +92,6 @@ Precisamos terminar o material
 \section{Espaço no CITI}
 \begin{items}
 \item Precisamos arrumar nossa bancada
-\priormins
 \end{items}
 
 \section{Projeto novo}
